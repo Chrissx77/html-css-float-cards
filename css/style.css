@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-    /* font: 12px; */
     font-family: 'Roboto', Verdana, Tahoma, sans-serif;
     font-weight: bold;
 }
@@ -46,7 +45,7 @@ header > h1{
 }
 
 #image{
-    width: 150px;
+    width: 135px;
     float: left;
     padding-right: 20px;
     clear: both;
