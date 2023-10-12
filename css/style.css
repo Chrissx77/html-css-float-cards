@@ -71,3 +71,7 @@ header > h1{
     color: rgb(0, 110, 255);
 }
 
+.shadow{
+    box-shadow: 1px 5px 10px;
+}
+
