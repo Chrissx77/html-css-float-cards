@@ -1,0 +1,49 @@
+/* CSS RESET */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    font: 12px;
+    font-family: 'Roboto', Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Style */
+.container{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header > h1{
+    margin-bottom: 50px;
+    color: purple;
+}
+
+/* Main Style */
+.row{
+    content: "";
+    clear: both;
+    display: block; /*PERCHé NON FUNZIONA CON display TABLE?*/
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.col{
+    float: left;
+    width: calc((100% / 3) - 20px);
+    margin: 0 10px;
+    /* padding: 0 10px; PERCHè non posso usare padding?*/
+    background-color: black;
+}
+
+#image{
+    width: 150px;
+    float: left;
+}
+
